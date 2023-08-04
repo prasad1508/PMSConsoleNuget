@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Authors>Prasad Madushan</Authors>
+    <Company>PMS Company</Company>
+    <Description>This is prasad test loging NugGet package</Description>
+    <RepositoryUrl>https://github.com/prasad1508/PMSConsoleNuget</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/prasad1508/PMSConsoleNuget</PackageProjectUrl>
+    <PackageReleaseNotes>This is initial realse</PackageReleaseNotes>
+    <PackageReadmeFile>PMS console log markdown file.md</PackageReadmeFile>
+    <PackageLicenseFile>PMS LIcense.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\PMS console log markdown file.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\PMS LIcense.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="PMS console log markdown file.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="PMS LIcense.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
